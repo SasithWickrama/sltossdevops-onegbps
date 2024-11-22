@@ -1,0 +1,10 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:unconfigure>
+         <objectName>ADSL_ZTE_DNAME:FTTH_ZTE_PID</objectName>
+         <templateName>SLTN-3HSI-R13</templateName>
+         <templateVersion>1</templateVersion>
+      </ns:unconfigure>
+   </soapenv:Body>
+</soapenv:Envelope>

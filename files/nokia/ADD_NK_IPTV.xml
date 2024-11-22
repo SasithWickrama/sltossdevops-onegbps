@@ -1,0 +1,14 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:configure>
+         <objectName>ADSL_ZTE_DNAME:FTTH_ZTE_PID</objectName>
+         <templateName>SLTN-1IPTV-B04</templateName>
+         <templateVersion>1</templateVersion>
+         <argument>
+            <name>networkVlanName</name>
+            <value>SLT_IPTV_UC</value>
+         </argument>
+      </ns:configure>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,32 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>BND-ONU-ONUPROFILE</operationName>
+         <!--Optional:-->
+         <operatedObject>
+            <!--Zero or more repetitions:-->
+            <param>
+               <name>DNAME</name>
+               <value>ADSL_ZTE_DNAME</value>
+            </param>
+                <param>
+               <name>OID</name>
+               <value>FTTH_ZTE_PID-FTTH_HUW_VP</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+            <!--Zero or more repetitions:-->
+          <param>
+               <name>ONUPROFILENAME</name>
+               <value>FTTH_ZTE_PROFILE-FTTH_INTERNET_PKG</value>
+           </param>
+	         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,49 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>CRT-SERVICEPORT</operationName>
+         <operatedObject>
+            <param>
+               <name>DNAME</name>
+               <value>ADSL_ZTE_DNAME</value>
+            </param>
+			<param>
+               <name>OID</name>
+               <value>FTTH_ZTE_PID-FTTH_HUW_VP</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+          <param>
+               <name>SERVICEPORTID</name>
+               <value>4</value>
+           </param>
+	<param>
+               <name>VIFTYPE</name>
+               <value>VPort</value>
+           </param>
+	<param>
+               <name>VIFID</name>
+               <value>50</value>
+           </param>
+<param>
+               <name>MODE</name>
+               <value>Tag</value>
+           </param>
+<param>
+               <name>USERVID</name>
+               <value>50</value>
+           </param>
+<param>
+               <name>NETWORKCVID</name>
+               <value>50</value>
+           </param>
+	         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>

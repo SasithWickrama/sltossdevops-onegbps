@@ -1,0 +1,21 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:os="os.xsd.v1">
+   <soapenv:Header><wsse:Security soapenv:mustUnderstand="1" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+    <wsse:UsernameToken wsu:Id="UsernameToken-2" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+      <wsse:Username>clarity</wsse:Username>
+      <wsse:Password >Test1234#</wsse:Password>
+	   </wsse:UsernameToken>
+  </wsse:Security>
+   </soapenv:Header>
+   <soapenv:Body>
+      <os:QUERY-VLAN>
+         <os:MODIFIER>VLAN</os:MODIFIER>
+         <os:object>
+           <os:DEV>ADSL_ZTE_DNAME</os:DEV>
+         </os:object>
+			<os:Session>1</os:Session>
+          <os:objectParas>
+           <os:SHOWOPTION>USERLABEL</os:SHOWOPTION>
+         </os:objectParas>
+      </os:QUERY-VLAN>
+   </soapenv:Body>
+</soapenv:Envelope>

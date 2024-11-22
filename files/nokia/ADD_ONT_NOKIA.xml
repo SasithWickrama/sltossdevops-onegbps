@@ -1,0 +1,26 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:configure>
+         <objectName>ADSL_ZTE_DNAME:FTTH_ZTE_PID</objectName>
+         <templateName>SLTN-NOKIA-ONT</templateName>
+         <templateVersion>1</templateVersion>
+         <argument>
+            <name>ontSerialNumber</name>
+            <value>FTTH_ONT_SN</value>
+         </argument>
+		 <argument>
+            <name>ontQosProfiles_ShaperProfileDsQueue0</name>
+            <value>DS_HSI_100M</value>
+         </argument>
+         <argument>
+            <name>ontQosProfiles_ShaperProfileDsQueue4</name>
+            <value>DS_IPTV_10M</value>
+         </argument>
+		 <argument>
+            <name>ontSubscriberId1</name>
+            <value>REGID</value>
+         </argument>
+      </ns:configure>
+   </soapenv:Body>
+</soapenv:Envelope>

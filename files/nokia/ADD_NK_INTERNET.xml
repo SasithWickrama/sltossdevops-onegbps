@@ -1,0 +1,18 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="uri://alcatel.com/apc/9.6">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:configure>
+         <objectName>ADSL_ZTE_DNAME:FTTH_ZTE_PID</objectName>
+         <templateName>SLTN-3HSI-R13</templateName>
+         <templateVersion>1</templateVersion>
+         <argument>
+            <name>networkVlanName</name>
+            <value>SLT_HSI</value>
+         </argument>
+         <argument>
+            <name>ontVeipPortQosProfiles_BandwidthProfileUsQueue0</name>
+            <value>US_HSI_50M</value>
+         </argument>
+      </ns:configure>
+   </soapenv:Body>
+</soapenv:Envelope>

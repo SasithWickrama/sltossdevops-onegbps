@@ -1,0 +1,1217 @@
+2022-06-30 12:36:56,385-INFO-Laz7WdQpiz_0112314567  Start : =========================================================================
+2022-06-30 12:36:56,385-INFO-Laz7WdQpiz_0112314567  Input Data : {'ADSL_ZTE_DNAME': 'SI_C300M_02', 'FTTH_ONT_SN': 'ZTEGCF288238', 'FTTH_ZTE_PID': '1-1-16-13', 'REF_ID': 'Laz7WdQpiz_0112314567', 'PENO': 'PE2022063098253'}
+2022-06-30 12:36:56,385-INFO-Laz7WdQpiz_0112314567  command xml : FTTH_DEL_ONU.xml
+2022-06-30 12:36:56,385-INFO-Laz7WdQpiz_0112314567  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+<web:OperationRequestInfo>
+         <operationName>DEL-ONU</operationName>
+         <operatedObject>
+            <param>
+               <name>OLTID</name>
+               <value>SI_C300M_02</value>
+            </param>
+                <param>
+               <name>PONID</name>
+               <value>1-1-16-13</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+          <param>
+               <name>ONUIDTYPE</name>
+               <value>SN</value>
+           </param>
+            <param>
+               <name>ONUID</name>
+               <value>ZTEGCF288238</value>
+           </param>
+		   </operationParam>
+      </web:OperationRequestInfo>
+	  </soapenv:Body>
+</soapenv:Envelope>
+
+2022-06-30 12:36:56,385-INFO-Laz7WdQpiz_0112314567  Response : =================================
+2022-06-30 12:36:56,385-INFO-Laz7WdQpiz_0112314567  <?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-06-30 12:36:56,385-INFO-Laz7WdQpiz_0112314567  0#No Error
+2022-06-30 12:36:56,385-INFO-Laz7WdQpiz_0112314567  End   : =========================================================================
+2022-06-30 12:36:57,590-INFO-9Q7TyFmQ64_0112314539  Start : =========================================================================
+2022-06-30 12:36:57,590-INFO-9Q7TyFmQ64_0112314539  Input Data : {'ADSL_ZTE_DNAME': 'SI_C300M_02', 'FTTH_ONT_SN': 'ZTEGCF288226', 'FTTH_ZTE_PID': '1-1-16-13', 'REF_ID': '9Q7TyFmQ64_0112314539', 'PENO': 'PE2022063098253'}
+2022-06-30 12:36:57,590-INFO-9Q7TyFmQ64_0112314539  command xml : FTTH_DEL_ONU.xml
+2022-06-30 12:36:57,590-INFO-9Q7TyFmQ64_0112314539  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+<web:OperationRequestInfo>
+         <operationName>DEL-ONU</operationName>
+         <operatedObject>
+            <param>
+               <name>OLTID</name>
+               <value>SI_C300M_02</value>
+            </param>
+                <param>
+               <name>PONID</name>
+               <value>1-1-16-13</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+          <param>
+               <name>ONUIDTYPE</name>
+               <value>SN</value>
+           </param>
+            <param>
+               <name>ONUID</name>
+               <value>ZTEGCF288226</value>
+           </param>
+		   </operationParam>
+      </web:OperationRequestInfo>
+	  </soapenv:Body>
+</soapenv:Envelope>
+
+2022-06-30 12:36:57,590-INFO-9Q7TyFmQ64_0112314539  Response : =================================
+2022-06-30 12:36:57,590-INFO-9Q7TyFmQ64_0112314539  <?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-06-30 12:36:57,590-INFO-9Q7TyFmQ64_0112314539  0#No Error
+2022-06-30 12:36:57,590-INFO-9Q7TyFmQ64_0112314539  End   : =========================================================================
+2022-06-30 12:37:02,184-INFO-Laz7WdQpiz_0112314567  Start : =========================================================================
+2022-06-30 12:37:02,184-INFO-Laz7WdQpiz_0112314567  Input Data : FTTH_ZTEADD_ONU.xml
+2022-06-30 12:37:02,184-INFO-Laz7WdQpiz_0112314567  command xml :{'ADSL_ZTE_DNAME': 'SI_C300M_06', 'FTTH_ZTE_PID': '1-1-2-2', 'FTTH_ONT_SN': 'ZTEGCF288238', 'FTTH_HUW_VP': '10', 'ZTE_NMS_REGID': '94112314567', 'FTTH_ZTE_PROFILE': 'TRIPLEPLAY_BB', 'REF_ID': 'Laz7WdQpiz_0112314567', 'PENO': 'PE2022063098253', 'ADSL_ZTE_USERNAME': '94112314567', 'ZTE_ONUTYPE': 'ZTE-F660', 'FTTH_INTERNET_PKG': '100M', 'VOBB': '660', 'EVLAN': '1000', 'SVLAN': '1583', 'IPSV': '1683', 'IPTVLAN': '2000'}
+2022-06-30 12:37:02,184-INFO-Laz7WdQpiz_0112314567  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>ADD-ONU</operationName>
+         <!--Optional:-->
+         <operatedObject>
+            <!--Zero or more repetitions:-->
+            <param>
+               <name>OLTID</name>
+               <value>SI_C300M_06</value>
+            </param>
+                <param>
+               <name>PONID</name>
+               <value>1-1-2-2</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+            <!--Zero or more repetitions:-->
+          <param>
+               <name>AUTHTYPE</name>
+               <value>SN</value>
+           </param>
+	<param>
+               <name>ONUID</name>
+               <value>ZTEGCF288238</value>
+           </param>
+	<param>
+               <name>ONUNO</name>
+               <value>10</value>
+           </param>
+	<param>
+               <name>NAME</name>
+               <value>94112314567</value>
+           </param>
+	<param>
+               <name>ONUTYPE</name>
+               <value>ZTE-F660</value>
+           </param>
+	         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-06-30 12:37:02,184-INFO-Laz7WdQpiz_0112314567  Response : =================================
+2022-06-30 12:37:02,184-INFO-Laz7WdQpiz_0112314567  <?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-06-30 12:37:02,184-INFO-Laz7WdQpiz_0112314567  0#No Error
+2022-06-30 12:37:02,184-INFO-Laz7WdQpiz_0112314567  End   : =========================================================================
+2022-06-30 12:37:02,919-INFO-Laz7WdQpiz_0112314567  Start : =========================================================================
+2022-06-30 12:37:02,919-INFO-Laz7WdQpiz_0112314567  Input Data : FTTH_ZTEX_BIDP.xml
+2022-06-30 12:37:02,919-INFO-Laz7WdQpiz_0112314567  command xml :{'ADSL_ZTE_DNAME': 'SI_C300M_06', 'FTTH_ZTE_PID': '1-1-2-2', 'FTTH_ONT_SN': 'ZTEGCF288238', 'FTTH_HUW_VP': '10', 'ZTE_NMS_REGID': '94112314567', 'FTTH_ZTE_PROFILE': 'TRIPLEPLAY_BB', 'REF_ID': 'Laz7WdQpiz_0112314567', 'PENO': 'PE2022063098253', 'ADSL_ZTE_USERNAME': '94112314567', 'ZTE_ONUTYPE': 'ZTE-F660', 'FTTH_INTERNET_PKG': '100M', 'VOBB': '660', 'EVLAN': '1000', 'SVLAN': '1583', 'IPSV': '1683', 'IPTVLAN': '2000'}
+2022-06-30 12:37:02,919-INFO-Laz7WdQpiz_0112314567  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>BND-ONU-ONUPROFILE</operationName>
+         <!--Optional:-->
+         <operatedObject>
+            <!--Zero or more repetitions:-->
+            <param>
+               <name>DNAME</name>
+               <value>SI_C300M_06</value>
+            </param>
+                <param>
+               <name>OID</name>
+               <value>1-1-2-2-10</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+            <!--Zero or more repetitions:-->
+          <param>
+               <name>ONUPROFILENAME</name>
+               <value>TRIPLEPLAY_BB-100M</value>
+           </param>
+	         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-06-30 12:37:02,919-INFO-Laz7WdQpiz_0112314567  Response : =================================
+2022-06-30 12:37:02,919-INFO-Laz7WdQpiz_0112314567  <?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-06-30 12:37:02,919-INFO-Laz7WdQpiz_0112314567  0#No Error
+2022-06-30 12:37:02,919-INFO-Laz7WdQpiz_0112314567  End   : =========================================================================
+2022-06-30 12:37:03,137-INFO-Laz7WdQpiz_0112314567  Start : =========================================================================
+2022-06-30 12:37:03,137-INFO-Laz7WdQpiz_0112314567  Input Data : FTTH_VSER_PORT.xml
+2022-06-30 12:37:03,137-INFO-Laz7WdQpiz_0112314567  command xml :{'ADSL_ZTE_DNAME': 'SI_C300M_06', 'FTTH_ZTE_PID': '1-1-2-2', 'FTTH_ONT_SN': 'ZTEGCF288238', 'FTTH_HUW_VP': '10', 'ZTE_NMS_REGID': '94112314567', 'FTTH_ZTE_PROFILE': 'TRIPLEPLAY_BB', 'REF_ID': 'Laz7WdQpiz_0112314567', 'PENO': 'PE2022063098253', 'ADSL_ZTE_USERNAME': '94112314567', 'ZTE_ONUTYPE': 'ZTE-F660', 'FTTH_INTERNET_PKG': '100M', 'VOBB': '660', 'EVLAN': '1000', 'SVLAN': '1583', 'IPSV': '1683', 'IPTVLAN': '2000'}
+2022-06-30 12:37:03,137-INFO-Laz7WdQpiz_0112314567  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>CRT-SERVICEPORT</operationName>
+         <operatedObject>
+            <param>
+               <name>DNAME</name>
+               <value>SI_C300M_06</value>
+            </param>
+			<param>
+               <name>OID</name>
+               <value>1-1-2-2-10</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+          <param>
+               <name>SERVICEPORTID</name>
+               <value>1</value>
+           </param>
+	<param>
+               <name>VIFTYPE</name>
+               <value>VPort</value>
+           </param>
+	<param>
+               <name>VIFID</name>
+               <value>10</value>
+           </param>
+<param>
+               <name>MODE</name>
+               <value>Tag</value>
+           </param>
+<param>
+               <name>USERVID</name>
+               <value>10</value>
+           </param>
+<param>
+               <name>NETWORKCVID</name>
+               <value>660</value>
+           </param>
+	         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-06-30 12:37:03,137-INFO-Laz7WdQpiz_0112314567  Response : =================================
+2022-06-30 12:37:03,137-INFO-Laz7WdQpiz_0112314567  <?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-06-30 12:37:03,137-INFO-Laz7WdQpiz_0112314567  0#No Error
+2022-06-30 12:37:03,137-INFO-Laz7WdQpiz_0112314567  End   : =========================================================================
+2022-06-30 12:37:03,356-INFO-9Q7TyFmQ64_0112314539  Start : =========================================================================
+2022-06-30 12:37:03,356-INFO-9Q7TyFmQ64_0112314539  Input Data : FTTH_ZTEADD_ONU.xml
+2022-06-30 12:37:03,356-INFO-9Q7TyFmQ64_0112314539  command xml :{'ADSL_ZTE_DNAME': 'SI_C300M_06', 'FTTH_ZTE_PID': '1-1-2-2', 'FTTH_ONT_SN': 'ZTEGCF288226', 'FTTH_HUW_VP': '11', 'ZTE_NMS_REGID': '94112314539', 'FTTH_ZTE_PROFILE': 'TRIPLEPLAY_BB', 'REF_ID': '9Q7TyFmQ64_0112314539', 'PENO': 'PE2022063098253', 'ADSL_ZTE_USERNAME': '94112314539', 'ZTE_ONUTYPE': 'ZTE-F660', 'FTTH_INTERNET_PKG': '100M', 'VOBB': '660', 'EVLAN': '1000', 'SVLAN': '1583', 'IPSV': '1683', 'IPTVLAN': '2000'}
+2022-06-30 12:37:03,356-INFO-9Q7TyFmQ64_0112314539  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>ADD-ONU</operationName>
+         <!--Optional:-->
+         <operatedObject>
+            <!--Zero or more repetitions:-->
+            <param>
+               <name>OLTID</name>
+               <value>SI_C300M_06</value>
+            </param>
+                <param>
+               <name>PONID</name>
+               <value>1-1-2-2</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+            <!--Zero or more repetitions:-->
+          <param>
+               <name>AUTHTYPE</name>
+               <value>SN</value>
+           </param>
+	<param>
+               <name>ONUID</name>
+               <value>ZTEGCF288226</value>
+           </param>
+	<param>
+               <name>ONUNO</name>
+               <value>11</value>
+           </param>
+	<param>
+               <name>NAME</name>
+               <value>94112314539</value>
+           </param>
+	<param>
+               <name>ONUTYPE</name>
+               <value>ZTE-F660</value>
+           </param>
+	         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-06-30 12:37:03,356-INFO-9Q7TyFmQ64_0112314539  Response : =================================
+2022-06-30 12:37:03,356-INFO-9Q7TyFmQ64_0112314539  <?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-06-30 12:37:03,356-INFO-9Q7TyFmQ64_0112314539  0#No Error
+2022-06-30 12:37:03,356-INFO-9Q7TyFmQ64_0112314539  End   : =========================================================================
+2022-06-30 12:37:03,387-INFO-Laz7WdQpiz_0112314567  Start : =========================================================================
+2022-06-30 12:37:03,387-INFO-Laz7WdQpiz_0112314567  Input Data : FTH_ISER_POT.xml
+2022-06-30 12:37:03,387-INFO-Laz7WdQpiz_0112314567  command xml :{'ADSL_ZTE_DNAME': 'SI_C300M_06', 'FTTH_ZTE_PID': '1-1-2-2', 'FTTH_ONT_SN': 'ZTEGCF288238', 'FTTH_HUW_VP': '10', 'ZTE_NMS_REGID': '94112314567', 'FTTH_ZTE_PROFILE': 'TRIPLEPLAY_BB', 'REF_ID': 'Laz7WdQpiz_0112314567', 'PENO': 'PE2022063098253', 'ADSL_ZTE_USERNAME': '94112314567', 'ZTE_ONUTYPE': 'ZTE-F660', 'FTTH_INTERNET_PKG': '100M', 'VOBB': '660', 'EVLAN': '1000', 'SVLAN': '1583', 'IPSV': '1683', 'IPTVLAN': '2000'}
+2022-06-30 12:37:03,387-INFO-Laz7WdQpiz_0112314567  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>CRT-SERVICEPORT</operationName>
+         <operatedObject>
+            <param>
+               <name>DNAME</name>
+               <value>SI_C300M_06</value>
+            </param>
+			<param>
+               <name>OID</name>
+               <value>1-1-2-2-10</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+          <param>
+               <name>SERVICEPORTID</name>
+               <value>2</value>
+           </param>
+	<param>
+               <name>VIFTYPE</name>
+               <value>VPort</value>
+           </param>
+	<param>
+               <name>VIFID</name>
+               <value>20</value>
+           </param>
+<param>
+               <name>MODE</name>
+               <value>Tag</value>
+           </param>
+<param>
+               <name>USERVID</name>
+               <value>20</value>
+           </param>
+<param>
+               <name>NETWORKCVID</name>
+               <value>1000</value>
+           </param>
+<param>
+               <name>NETWORKSVID</name>
+               <value>1583</value>
+           </param>
+	         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-06-30 12:37:03,387-INFO-Laz7WdQpiz_0112314567  Response : =================================
+2022-06-30 12:37:03,387-INFO-Laz7WdQpiz_0112314567  <?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-06-30 12:37:03,387-INFO-Laz7WdQpiz_0112314567  0#No Error
+2022-06-30 12:37:03,387-INFO-Laz7WdQpiz_0112314567  End   : =========================================================================
+2022-06-30 12:37:03,622-INFO-Laz7WdQpiz_0112314567  Start : =========================================================================
+2022-06-30 12:37:03,622-INFO-Laz7WdQpiz_0112314567  Input Data : FTTH_INT_USRADD.xml
+2022-06-30 12:37:03,622-INFO-Laz7WdQpiz_0112314567  command xml :{'ADSL_ZTE_DNAME': 'SI_C300M_06', 'FTTH_ZTE_PID': '1-1-2-2', 'FTTH_ONT_SN': 'ZTEGCF288238', 'FTTH_HUW_VP': '10', 'ZTE_NMS_REGID': '94112314567', 'FTTH_ZTE_PROFILE': 'TRIPLEPLAY_BB', 'REF_ID': 'Laz7WdQpiz_0112314567', 'PENO': 'PE2022063098253', 'ADSL_ZTE_USERNAME': '94112314567', 'ZTE_ONUTYPE': 'ZTE-F660', 'FTTH_INTERNET_PKG': '100M', 'VOBB': '660', 'EVLAN': '1000', 'SVLAN': '1583', 'IPSV': '1683', 'IPTVLAN': '2000'}
+2022-06-30 12:37:03,622-INFO-Laz7WdQpiz_0112314567  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>CHG-ONUWANIP</operationName>
+         <!--Optional:-->
+         <operatedObject>
+            <!--Zero or more repetitions:-->
+            <param>
+               <name>DNAME</name>
+               <value>SI_C300M_06</value>
+            </param>
+                <param>
+               <name>OID</name>
+               <value>1-1-2-2-10</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+            <!--Zero or more repetitions:-->
+          <param>
+               <name>IPHOSTID</name>
+               <value>1</value>
+           </param>
+	<param>
+               <name>PPPOEUSER</name>
+               <value>94112314567@sltbb</value>
+           </param>
+	<param>
+               <name>PPPOEPWD</name>
+               <value>test123</value>
+           </param>
+	<param>
+               <name>VID</name>
+               <value>20</value>
+           </param>
+	         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-06-30 12:37:03,622-INFO-Laz7WdQpiz_0112314567  Response : =================================
+2022-06-30 12:37:03,622-INFO-Laz7WdQpiz_0112314567  <?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-06-30 12:37:03,622-INFO-Laz7WdQpiz_0112314567  0#No Error
+2022-06-30 12:37:03,622-INFO-Laz7WdQpiz_0112314567  End   : =========================================================================
+2022-06-30 12:37:03,856-INFO-Laz7WdQpiz_0112314567  Start : =========================================================================
+2022-06-30 12:37:03,856-INFO-Laz7WdQpiz_0112314567  Input Data : FTTH_PSER_PORT.xml
+2022-06-30 12:37:03,856-INFO-Laz7WdQpiz_0112314567  command xml :{'ADSL_ZTE_DNAME': 'SI_C300M_06', 'FTTH_ZTE_PID': '1-1-2-2', 'FTTH_ONT_SN': 'ZTEGCF288238', 'FTTH_HUW_VP': '10', 'ZTE_NMS_REGID': '94112314567', 'FTTH_ZTE_PROFILE': 'TRIPLEPLAY_BB', 'REF_ID': 'Laz7WdQpiz_0112314567', 'PENO': 'PE2022063098253', 'ADSL_ZTE_USERNAME': '94112314567', 'ZTE_ONUTYPE': 'ZTE-F660', 'FTTH_INTERNET_PKG': '100M', 'VOBB': '660', 'EVLAN': '1000', 'SVLAN': '1583', 'IPSV': '1683', 'IPTVLAN': '2000'}
+2022-06-30 12:37:03,856-INFO-Laz7WdQpiz_0112314567  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>CRT-SERVICEPORT</operationName>
+         <operatedObject>
+            <param>
+               <name>DNAME</name>
+               <value>SI_C300M_06</value>
+            </param>
+			<param>
+               <name>OID</name>
+               <value>1-1-2-2-10</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+          <param>
+               <name>SERVICEPORTID</name>
+               <value>3</value>
+           </param>
+	<param>
+               <name>VIFTYPE</name>
+               <value>VPort</value>
+           </param>
+	<param>
+               <name>VIFID</name>
+               <value>30</value>
+           </param>
+<param>
+               <name>MODE</name>
+               <value>Tag</value>
+           </param>
+<param>
+               <name>USERVID</name>
+               <value>30</value>
+           </param>
+<param>
+               <name>NETWORKCVID</name>
+               <value>1683</value>
+           </param>
+<param>
+               <name>NETWORKSVID</name>
+               <value>2000</value>
+           </param>
+	         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-06-30 12:37:03,856-INFO-Laz7WdQpiz_0112314567  Response : =================================
+2022-06-30 12:37:03,856-INFO-Laz7WdQpiz_0112314567  <?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-06-30 12:37:03,856-INFO-Laz7WdQpiz_0112314567  0#No Error
+2022-06-30 12:37:03,856-INFO-Laz7WdQpiz_0112314567  End   : =========================================================================
+2022-06-30 12:37:04,044-INFO-9Q7TyFmQ64_0112314539  Start : =========================================================================
+2022-06-30 12:37:04,044-INFO-9Q7TyFmQ64_0112314539  Input Data : FTTH_ZTEX_BIDP.xml
+2022-06-30 12:37:04,044-INFO-9Q7TyFmQ64_0112314539  command xml :{'ADSL_ZTE_DNAME': 'SI_C300M_06', 'FTTH_ZTE_PID': '1-1-2-2', 'FTTH_ONT_SN': 'ZTEGCF288226', 'FTTH_HUW_VP': '11', 'ZTE_NMS_REGID': '94112314539', 'FTTH_ZTE_PROFILE': 'TRIPLEPLAY_BB', 'REF_ID': '9Q7TyFmQ64_0112314539', 'PENO': 'PE2022063098253', 'ADSL_ZTE_USERNAME': '94112314539', 'ZTE_ONUTYPE': 'ZTE-F660', 'FTTH_INTERNET_PKG': '100M', 'VOBB': '660', 'EVLAN': '1000', 'SVLAN': '1583', 'IPSV': '1683', 'IPTVLAN': '2000'}
+2022-06-30 12:37:04,044-INFO-9Q7TyFmQ64_0112314539  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>BND-ONU-ONUPROFILE</operationName>
+         <!--Optional:-->
+         <operatedObject>
+            <!--Zero or more repetitions:-->
+            <param>
+               <name>DNAME</name>
+               <value>SI_C300M_06</value>
+            </param>
+                <param>
+               <name>OID</name>
+               <value>1-1-2-2-11</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+            <!--Zero or more repetitions:-->
+          <param>
+               <name>ONUPROFILENAME</name>
+               <value>TRIPLEPLAY_BB-100M</value>
+           </param>
+	         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-06-30 12:37:04,044-INFO-9Q7TyFmQ64_0112314539  Response : =================================
+2022-06-30 12:37:04,044-INFO-9Q7TyFmQ64_0112314539  <?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-06-30 12:37:04,044-INFO-9Q7TyFmQ64_0112314539  0#No Error
+2022-06-30 12:37:04,044-INFO-9Q7TyFmQ64_0112314539  End   : =========================================================================
+2022-06-30 12:37:04,106-INFO-Laz7WdQpiz_0112314567  Start : =========================================================================
+2022-06-30 12:37:04,106-INFO-Laz7WdQpiz_0112314567  Input Data : FTTH_ZTE_IPTVSERA.xml
+2022-06-30 12:37:04,106-INFO-Laz7WdQpiz_0112314567  command xml :{'ADSL_ZTE_DNAME': 'SI_C300M_06', 'FTTH_ZTE_PID': '1-1-2-2', 'FTTH_ONT_SN': 'ZTEGCF288238', 'FTTH_HUW_VP': '10', 'ZTE_NMS_REGID': '94112314567', 'FTTH_ZTE_PROFILE': 'TRIPLEPLAY_BB', 'REF_ID': 'Laz7WdQpiz_0112314567', 'PENO': 'PE2022063098253', 'ADSL_ZTE_USERNAME': '94112314567', 'ZTE_ONUTYPE': 'ZTE-F660', 'FTTH_INTERNET_PKG': '100M', 'VOBB': '660', 'EVLAN': '1000', 'SVLAN': '1583', 'IPSV': '1683', 'IPTVLAN': '2000'}
+2022-06-30 12:37:04,106-INFO-Laz7WdQpiz_0112314567  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>CRT-SERVICEPORT</operationName>
+         <operatedObject>
+            <param>
+               <name>DNAME</name>
+               <value>SI_C300M_06</value>
+            </param>
+			<param>
+               <name>OID</name>
+               <value>1-1-2-2-10</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+          <param>
+               <name>SERVICEPORTID</name>
+               <value>4</value>
+           </param>
+	<param>
+               <name>VIFTYPE</name>
+               <value>VPort</value>
+           </param>
+	<param>
+               <name>VIFID</name>
+               <value>50</value>
+           </param>
+<param>
+               <name>MODE</name>
+               <value>Tag</value>
+           </param>
+<param>
+               <name>USERVID</name>
+               <value>50</value>
+           </param>
+<param>
+               <name>NETWORKCVID</name>
+               <value>50</value>
+           </param>
+	         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-06-30 12:37:04,106-INFO-Laz7WdQpiz_0112314567  Response : =================================
+2022-06-30 12:37:04,106-INFO-Laz7WdQpiz_0112314567  <?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-06-30 12:37:04,106-INFO-Laz7WdQpiz_0112314567  0#No Error
+2022-06-30 12:37:04,106-INFO-Laz7WdQpiz_0112314567  End   : =========================================================================
+2022-06-30 12:37:04,278-INFO-9Q7TyFmQ64_0112314539  Start : =========================================================================
+2022-06-30 12:37:04,278-INFO-9Q7TyFmQ64_0112314539  Input Data : FTTH_VSER_PORT.xml
+2022-06-30 12:37:04,278-INFO-9Q7TyFmQ64_0112314539  command xml :{'ADSL_ZTE_DNAME': 'SI_C300M_06', 'FTTH_ZTE_PID': '1-1-2-2', 'FTTH_ONT_SN': 'ZTEGCF288226', 'FTTH_HUW_VP': '11', 'ZTE_NMS_REGID': '94112314539', 'FTTH_ZTE_PROFILE': 'TRIPLEPLAY_BB', 'REF_ID': '9Q7TyFmQ64_0112314539', 'PENO': 'PE2022063098253', 'ADSL_ZTE_USERNAME': '94112314539', 'ZTE_ONUTYPE': 'ZTE-F660', 'FTTH_INTERNET_PKG': '100M', 'VOBB': '660', 'EVLAN': '1000', 'SVLAN': '1583', 'IPSV': '1683', 'IPTVLAN': '2000'}
+2022-06-30 12:37:04,278-INFO-9Q7TyFmQ64_0112314539  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>CRT-SERVICEPORT</operationName>
+         <operatedObject>
+            <param>
+               <name>DNAME</name>
+               <value>SI_C300M_06</value>
+            </param>
+			<param>
+               <name>OID</name>
+               <value>1-1-2-2-11</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+          <param>
+               <name>SERVICEPORTID</name>
+               <value>1</value>
+           </param>
+	<param>
+               <name>VIFTYPE</name>
+               <value>VPort</value>
+           </param>
+	<param>
+               <name>VIFID</name>
+               <value>10</value>
+           </param>
+<param>
+               <name>MODE</name>
+               <value>Tag</value>
+           </param>
+<param>
+               <name>USERVID</name>
+               <value>10</value>
+           </param>
+<param>
+               <name>NETWORKCVID</name>
+               <value>660</value>
+           </param>
+	         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-06-30 12:37:04,278-INFO-9Q7TyFmQ64_0112314539  Response : =================================
+2022-06-30 12:37:04,278-INFO-9Q7TyFmQ64_0112314539  <?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-06-30 12:37:04,278-INFO-9Q7TyFmQ64_0112314539  0#No Error
+2022-06-30 12:37:04,278-INFO-9Q7TyFmQ64_0112314539  End   : =========================================================================
+2022-06-30 12:37:04,278-INFO-Laz7WdQpiz_0112314567  Start : =========================================================================
+2022-06-30 12:37:04,278-INFO-Laz7WdQpiz_0112314567  Input Data : FTTH_ZTE_IPTVSERB.xml
+2022-06-30 12:37:04,278-INFO-Laz7WdQpiz_0112314567  command xml :{'ADSL_ZTE_DNAME': 'SI_C300M_06', 'FTTH_ZTE_PID': '1-1-2-2', 'FTTH_ONT_SN': 'ZTEGCF288238', 'FTTH_HUW_VP': '10', 'ZTE_NMS_REGID': '94112314567', 'FTTH_ZTE_PROFILE': 'TRIPLEPLAY_BB', 'REF_ID': 'Laz7WdQpiz_0112314567', 'PENO': 'PE2022063098253', 'ADSL_ZTE_USERNAME': '94112314567', 'ZTE_ONUTYPE': 'ZTE-F660', 'FTTH_INTERNET_PKG': '100M', 'VOBB': '660', 'EVLAN': '1000', 'SVLAN': '1583', 'IPSV': '1683', 'IPTVLAN': '2000'}
+2022-06-30 12:37:04,278-INFO-Laz7WdQpiz_0112314567  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>BND-PORT-MVLAN</operationName>
+         <operatedObject>
+            <param>
+               <name>DNAME</name>
+               <value>SI_C300M_06</value>
+            </param>
+			<param>
+               <name>OID</name>
+               <value>1-1-2-2-10</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+          <param>
+               <name>MVLANID</name>
+               <value>50</value>
+           </param>
+	<param>
+               <name>VINTERFACE</name>
+               <value>30</value>
+           </param>
+	<param>
+               <name>BINDTYPE</name>
+               <value>2</value>
+           </param>
+	         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-06-30 12:37:04,278-INFO-Laz7WdQpiz_0112314567  Response : =================================
+2022-06-30 12:37:04,278-INFO-Laz7WdQpiz_0112314567  <?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-06-30 12:37:04,278-INFO-Laz7WdQpiz_0112314567  0#No Error
+2022-06-30 12:37:04,278-INFO-Laz7WdQpiz_0112314567  End   : =========================================================================
+2022-06-30 12:37:04,544-INFO-9Q7TyFmQ64_0112314539  Start : =========================================================================
+2022-06-30 12:37:04,544-INFO-Laz7WdQpiz_0112314567  Start : =========================================================================
+2022-06-30 12:37:04,544-INFO-Laz7WdQpiz_0112314567  Input Data : FTTH_ZTE_IPTVSERC.xml
+2022-06-30 12:37:04,544-INFO-9Q7TyFmQ64_0112314539  command xml :{'ADSL_ZTE_DNAME': 'SI_C300M_06', 'FTTH_ZTE_PID': '1-1-2-2', 'FTTH_ONT_SN': 'ZTEGCF288226', 'FTTH_HUW_VP': '11', 'ZTE_NMS_REGID': '94112314539', 'FTTH_ZTE_PROFILE': 'TRIPLEPLAY_BB', 'REF_ID': '9Q7TyFmQ64_0112314539', 'PENO': 'PE2022063098253', 'ADSL_ZTE_USERNAME': '94112314539', 'ZTE_ONUTYPE': 'ZTE-F660', 'FTTH_INTERNET_PKG': '100M', 'VOBB': '660', 'EVLAN': '1000', 'SVLAN': '1583', 'IPSV': '1683', 'IPTVLAN': '2000'}
+2022-06-30 12:37:04,544-INFO-Laz7WdQpiz_0112314567  command xml :{'ADSL_ZTE_DNAME': 'SI_C300M_06', 'FTTH_ZTE_PID': '1-1-2-2', 'FTTH_ONT_SN': 'ZTEGCF288238', 'FTTH_HUW_VP': '10', 'ZTE_NMS_REGID': '94112314567', 'FTTH_ZTE_PROFILE': 'TRIPLEPLAY_BB', 'REF_ID': 'Laz7WdQpiz_0112314567', 'PENO': 'PE2022063098253', 'ADSL_ZTE_USERNAME': '94112314567', 'ZTE_ONUTYPE': 'ZTE-F660', 'FTTH_INTERNET_PKG': '100M', 'VOBB': '660', 'EVLAN': '1000', 'SVLAN': '1583', 'IPSV': '1683', 'IPTVLAN': '2000'}
+2022-06-30 12:37:04,544-INFO-9Q7TyFmQ64_0112314539  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>CRT-SERVICEPORT</operationName>
+         <operatedObject>
+            <param>
+               <name>DNAME</name>
+               <value>SI_C300M_06</value>
+            </param>
+			<param>
+               <name>OID</name>
+               <value>1-1-2-2-11</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+          <param>
+               <name>SERVICEPORTID</name>
+               <value>2</value>
+           </param>
+	<param>
+               <name>VIFTYPE</name>
+               <value>VPort</value>
+           </param>
+	<param>
+               <name>VIFID</name>
+               <value>20</value>
+           </param>
+<param>
+               <name>MODE</name>
+               <value>Tag</value>
+           </param>
+<param>
+               <name>USERVID</name>
+               <value>20</value>
+           </param>
+<param>
+               <name>NETWORKCVID</name>
+               <value>1000</value>
+           </param>
+<param>
+               <name>NETWORKSVID</name>
+               <value>1583</value>
+           </param>
+	         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-06-30 12:37:04,544-INFO-Laz7WdQpiz_0112314567  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>CRT-SERVICEPORT</operationName>
+         <operatedObject>
+            <param>
+               <name>DNAME</name>
+               <value>SI_C300M_06</value>
+            </param>
+			<param>
+               <name>OID</name>
+               <value>1-1-2-2-10</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+          <param>
+               <name>SERVICEPORTID</name>
+               <value>5</value>
+           </param>
+	<param>
+               <name>VIFTYPE</name>
+               <value>VPort</value>
+           </param>
+	<param>
+               <name>VIFID</name>
+               <value>30</value>
+           </param>
+<param>
+               <name>MODE</name>
+               <value>Tag</value>
+           </param>
+<param>
+               <name>USERVID</name>
+               <value>50</value>
+           </param>
+<param>
+               <name>NETWORKCVID</name>
+               <value>50</value>
+           </param>
+	         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-06-30 12:37:04,544-INFO-9Q7TyFmQ64_0112314539  Response : =================================
+2022-06-30 12:37:04,544-INFO-Laz7WdQpiz_0112314567  Response : =================================
+2022-06-30 12:37:04,544-INFO-9Q7TyFmQ64_0112314539  <?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-06-30 12:37:04,544-INFO-Laz7WdQpiz_0112314567  <?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-06-30 12:37:04,544-INFO-9Q7TyFmQ64_0112314539  0#No Error
+2022-06-30 12:37:04,544-INFO-Laz7WdQpiz_0112314567  0#No Error
+2022-06-30 12:37:04,544-INFO-9Q7TyFmQ64_0112314539  End   : =========================================================================
+2022-06-30 12:37:04,544-INFO-Laz7WdQpiz_0112314567  End   : =========================================================================
+2022-06-30 12:37:04,762-INFO-Laz7WdQpiz_0112314567  Start : =========================================================================
+2022-06-30 12:37:04,762-INFO-Laz7WdQpiz_0112314567  Input Data : FTTH_ZTE_IPTVSERD.xml
+2022-06-30 12:37:04,762-INFO-Laz7WdQpiz_0112314567  command xml :{'ADSL_ZTE_DNAME': 'SI_C300M_06', 'FTTH_ZTE_PID': '1-1-2-2', 'FTTH_ONT_SN': 'ZTEGCF288238', 'FTTH_HUW_VP': '10', 'ZTE_NMS_REGID': '94112314567', 'FTTH_ZTE_PROFILE': 'TRIPLEPLAY_BB', 'REF_ID': 'Laz7WdQpiz_0112314567', 'PENO': 'PE2022063098253', 'ADSL_ZTE_USERNAME': '94112314567', 'ZTE_ONUTYPE': 'ZTE-F660', 'FTTH_INTERNET_PKG': '100M', 'VOBB': '660', 'EVLAN': '1000', 'SVLAN': '1583', 'IPSV': '1683', 'IPTVLAN': '2000'}
+2022-06-30 12:37:04,762-INFO-Laz7WdQpiz_0112314567  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>BND-PORT-MVLAN</operationName>
+         <operatedObject>
+            <param>
+               <name>DNAME</name>
+               <value>SI_C300M_06</value>
+            </param>
+			<param>
+               <name>OID</name>
+               <value>1-1-2-2-10</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+          <param>
+               <name>MVLANID</name>
+               <value>50</value>
+           </param>
+	<param>
+               <name>VINTERFACE</name>
+               <value>50</value>
+           </param>
+	<param>
+               <name>BINDTYPE</name>
+               <value>2</value>
+           </param>
+	         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-06-30 12:37:04,762-INFO-Laz7WdQpiz_0112314567  Response : =================================
+2022-06-30 12:37:04,762-INFO-Laz7WdQpiz_0112314567  <?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-06-30 12:37:04,762-INFO-Laz7WdQpiz_0112314567  0#No Error
+2022-06-30 12:37:04,762-INFO-9Q7TyFmQ64_0112314539  Start : =========================================================================
+2022-06-30 12:37:04,762-INFO-Laz7WdQpiz_0112314567  End   : =========================================================================
+2022-06-30 12:37:04,762-INFO-9Q7TyFmQ64_0112314539  Input Data : FTTH_INT_USRADD.xml
+2022-06-30 12:37:04,762-INFO-9Q7TyFmQ64_0112314539  command xml :{'ADSL_ZTE_DNAME': 'SI_C300M_06', 'FTTH_ZTE_PID': '1-1-2-2', 'FTTH_ONT_SN': 'ZTEGCF288226', 'FTTH_HUW_VP': '11', 'ZTE_NMS_REGID': '94112314539', 'FTTH_ZTE_PROFILE': 'TRIPLEPLAY_BB', 'REF_ID': '9Q7TyFmQ64_0112314539', 'PENO': 'PE2022063098253', 'ADSL_ZTE_USERNAME': '94112314539', 'ZTE_ONUTYPE': 'ZTE-F660', 'FTTH_INTERNET_PKG': '100M', 'VOBB': '660', 'EVLAN': '1000', 'SVLAN': '1583', 'IPSV': '1683', 'IPTVLAN': '2000'}
+2022-06-30 12:37:04,762-INFO-9Q7TyFmQ64_0112314539  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>CHG-ONUWANIP</operationName>
+         <!--Optional:-->
+         <operatedObject>
+            <!--Zero or more repetitions:-->
+            <param>
+               <name>DNAME</name>
+               <value>SI_C300M_06</value>
+            </param>
+                <param>
+               <name>OID</name>
+               <value>1-1-2-2-11</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+            <!--Zero or more repetitions:-->
+          <param>
+               <name>IPHOSTID</name>
+               <value>1</value>
+           </param>
+	<param>
+               <name>PPPOEUSER</name>
+               <value>94112314539@sltbb</value>
+           </param>
+	<param>
+               <name>PPPOEPWD</name>
+               <value>test123</value>
+           </param>
+	<param>
+               <name>VID</name>
+               <value>20</value>
+           </param>
+	         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-06-30 12:37:04,762-INFO-9Q7TyFmQ64_0112314539  Response : =================================
+2022-06-30 12:37:04,762-INFO-9Q7TyFmQ64_0112314539  <?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-06-30 12:37:04,762-INFO-9Q7TyFmQ64_0112314539  0#No Error
+2022-06-30 12:37:04,762-INFO-9Q7TyFmQ64_0112314539  End   : =========================================================================
+2022-06-30 12:37:05,010-INFO-9Q7TyFmQ64_0112314539  Start : =========================================================================
+2022-06-30 12:37:05,010-INFO-9Q7TyFmQ64_0112314539  Input Data : FTTH_PSER_PORT.xml
+2022-06-30 12:37:05,010-INFO-9Q7TyFmQ64_0112314539  command xml :{'ADSL_ZTE_DNAME': 'SI_C300M_06', 'FTTH_ZTE_PID': '1-1-2-2', 'FTTH_ONT_SN': 'ZTEGCF288226', 'FTTH_HUW_VP': '11', 'ZTE_NMS_REGID': '94112314539', 'FTTH_ZTE_PROFILE': 'TRIPLEPLAY_BB', 'REF_ID': '9Q7TyFmQ64_0112314539', 'PENO': 'PE2022063098253', 'ADSL_ZTE_USERNAME': '94112314539', 'ZTE_ONUTYPE': 'ZTE-F660', 'FTTH_INTERNET_PKG': '100M', 'VOBB': '660', 'EVLAN': '1000', 'SVLAN': '1583', 'IPSV': '1683', 'IPTVLAN': '2000'}
+2022-06-30 12:37:05,010-INFO-9Q7TyFmQ64_0112314539  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>CRT-SERVICEPORT</operationName>
+         <operatedObject>
+            <param>
+               <name>DNAME</name>
+               <value>SI_C300M_06</value>
+            </param>
+			<param>
+               <name>OID</name>
+               <value>1-1-2-2-11</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+          <param>
+               <name>SERVICEPORTID</name>
+               <value>3</value>
+           </param>
+	<param>
+               <name>VIFTYPE</name>
+               <value>VPort</value>
+           </param>
+	<param>
+               <name>VIFID</name>
+               <value>30</value>
+           </param>
+<param>
+               <name>MODE</name>
+               <value>Tag</value>
+           </param>
+<param>
+               <name>USERVID</name>
+               <value>30</value>
+           </param>
+<param>
+               <name>NETWORKCVID</name>
+               <value>1683</value>
+           </param>
+<param>
+               <name>NETWORKSVID</name>
+               <value>2000</value>
+           </param>
+	         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-06-30 12:37:05,010-INFO-9Q7TyFmQ64_0112314539  Response : =================================
+2022-06-30 12:37:05,010-INFO-9Q7TyFmQ64_0112314539  <?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-06-30 12:37:05,010-INFO-9Q7TyFmQ64_0112314539  0#No Error
+2022-06-30 12:37:05,010-INFO-9Q7TyFmQ64_0112314539  End   : =========================================================================
+2022-06-30 12:37:05,260-INFO-9Q7TyFmQ64_0112314539  Start : =========================================================================
+2022-06-30 12:37:05,260-INFO-9Q7TyFmQ64_0112314539  Input Data : FTTH_ZTE_IPTVSERA.xml
+2022-06-30 12:37:05,260-INFO-9Q7TyFmQ64_0112314539  command xml :{'ADSL_ZTE_DNAME': 'SI_C300M_06', 'FTTH_ZTE_PID': '1-1-2-2', 'FTTH_ONT_SN': 'ZTEGCF288226', 'FTTH_HUW_VP': '11', 'ZTE_NMS_REGID': '94112314539', 'FTTH_ZTE_PROFILE': 'TRIPLEPLAY_BB', 'REF_ID': '9Q7TyFmQ64_0112314539', 'PENO': 'PE2022063098253', 'ADSL_ZTE_USERNAME': '94112314539', 'ZTE_ONUTYPE': 'ZTE-F660', 'FTTH_INTERNET_PKG': '100M', 'VOBB': '660', 'EVLAN': '1000', 'SVLAN': '1583', 'IPSV': '1683', 'IPTVLAN': '2000'}
+2022-06-30 12:37:05,260-INFO-9Q7TyFmQ64_0112314539  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>CRT-SERVICEPORT</operationName>
+         <operatedObject>
+            <param>
+               <name>DNAME</name>
+               <value>SI_C300M_06</value>
+            </param>
+			<param>
+               <name>OID</name>
+               <value>1-1-2-2-11</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+          <param>
+               <name>SERVICEPORTID</name>
+               <value>4</value>
+           </param>
+	<param>
+               <name>VIFTYPE</name>
+               <value>VPort</value>
+           </param>
+	<param>
+               <name>VIFID</name>
+               <value>50</value>
+           </param>
+<param>
+               <name>MODE</name>
+               <value>Tag</value>
+           </param>
+<param>
+               <name>USERVID</name>
+               <value>50</value>
+           </param>
+<param>
+               <name>NETWORKCVID</name>
+               <value>50</value>
+           </param>
+	         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-06-30 12:37:05,260-INFO-9Q7TyFmQ64_0112314539  Response : =================================
+2022-06-30 12:37:05,260-INFO-9Q7TyFmQ64_0112314539  <?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-06-30 12:37:05,260-INFO-9Q7TyFmQ64_0112314539  0#No Error
+2022-06-30 12:37:05,260-INFO-9Q7TyFmQ64_0112314539  End   : =========================================================================
+2022-06-30 12:37:05,442-INFO-9Q7TyFmQ64_0112314539  Start : =========================================================================
+2022-06-30 12:37:05,442-INFO-9Q7TyFmQ64_0112314539  Input Data : FTTH_ZTE_IPTVSERB.xml
+2022-06-30 12:37:05,442-INFO-9Q7TyFmQ64_0112314539  command xml :{'ADSL_ZTE_DNAME': 'SI_C300M_06', 'FTTH_ZTE_PID': '1-1-2-2', 'FTTH_ONT_SN': 'ZTEGCF288226', 'FTTH_HUW_VP': '11', 'ZTE_NMS_REGID': '94112314539', 'FTTH_ZTE_PROFILE': 'TRIPLEPLAY_BB', 'REF_ID': '9Q7TyFmQ64_0112314539', 'PENO': 'PE2022063098253', 'ADSL_ZTE_USERNAME': '94112314539', 'ZTE_ONUTYPE': 'ZTE-F660', 'FTTH_INTERNET_PKG': '100M', 'VOBB': '660', 'EVLAN': '1000', 'SVLAN': '1583', 'IPSV': '1683', 'IPTVLAN': '2000'}
+2022-06-30 12:37:05,442-INFO-9Q7TyFmQ64_0112314539  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>BND-PORT-MVLAN</operationName>
+         <operatedObject>
+            <param>
+               <name>DNAME</name>
+               <value>SI_C300M_06</value>
+            </param>
+			<param>
+               <name>OID</name>
+               <value>1-1-2-2-11</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+          <param>
+               <name>MVLANID</name>
+               <value>50</value>
+           </param>
+	<param>
+               <name>VINTERFACE</name>
+               <value>30</value>
+           </param>
+	<param>
+               <name>BINDTYPE</name>
+               <value>2</value>
+           </param>
+	         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-06-30 12:37:05,442-INFO-9Q7TyFmQ64_0112314539  Response : =================================
+2022-06-30 12:37:05,442-INFO-9Q7TyFmQ64_0112314539  <?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-06-30 12:37:05,442-INFO-9Q7TyFmQ64_0112314539  0#No Error
+2022-06-30 12:37:05,458-INFO-9Q7TyFmQ64_0112314539  End   : =========================================================================
+2022-06-30 12:37:05,677-INFO-9Q7TyFmQ64_0112314539  Start : =========================================================================
+2022-06-30 12:37:05,677-INFO-9Q7TyFmQ64_0112314539  Input Data : FTTH_ZTE_IPTVSERC.xml
+2022-06-30 12:37:05,677-INFO-9Q7TyFmQ64_0112314539  command xml :{'ADSL_ZTE_DNAME': 'SI_C300M_06', 'FTTH_ZTE_PID': '1-1-2-2', 'FTTH_ONT_SN': 'ZTEGCF288226', 'FTTH_HUW_VP': '11', 'ZTE_NMS_REGID': '94112314539', 'FTTH_ZTE_PROFILE': 'TRIPLEPLAY_BB', 'REF_ID': '9Q7TyFmQ64_0112314539', 'PENO': 'PE2022063098253', 'ADSL_ZTE_USERNAME': '94112314539', 'ZTE_ONUTYPE': 'ZTE-F660', 'FTTH_INTERNET_PKG': '100M', 'VOBB': '660', 'EVLAN': '1000', 'SVLAN': '1583', 'IPSV': '1683', 'IPTVLAN': '2000'}
+2022-06-30 12:37:05,677-INFO-9Q7TyFmQ64_0112314539  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>CRT-SERVICEPORT</operationName>
+         <operatedObject>
+            <param>
+               <name>DNAME</name>
+               <value>SI_C300M_06</value>
+            </param>
+			<param>
+               <name>OID</name>
+               <value>1-1-2-2-11</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+          <param>
+               <name>SERVICEPORTID</name>
+               <value>5</value>
+           </param>
+	<param>
+               <name>VIFTYPE</name>
+               <value>VPort</value>
+           </param>
+	<param>
+               <name>VIFID</name>
+               <value>30</value>
+           </param>
+<param>
+               <name>MODE</name>
+               <value>Tag</value>
+           </param>
+<param>
+               <name>USERVID</name>
+               <value>50</value>
+           </param>
+<param>
+               <name>NETWORKCVID</name>
+               <value>50</value>
+           </param>
+	         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-06-30 12:37:05,677-INFO-9Q7TyFmQ64_0112314539  Response : =================================
+2022-06-30 12:37:05,677-INFO-9Q7TyFmQ64_0112314539  <?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-06-30 12:37:05,677-INFO-9Q7TyFmQ64_0112314539  0#No Error
+2022-06-30 12:37:05,677-INFO-9Q7TyFmQ64_0112314539  End   : =========================================================================
+2022-06-30 12:37:05,855-INFO-9Q7TyFmQ64_0112314539  Start : =========================================================================
+2022-06-30 12:37:05,855-INFO-9Q7TyFmQ64_0112314539  Input Data : FTTH_ZTE_IPTVSERD.xml
+2022-06-30 12:37:05,855-INFO-9Q7TyFmQ64_0112314539  command xml :{'ADSL_ZTE_DNAME': 'SI_C300M_06', 'FTTH_ZTE_PID': '1-1-2-2', 'FTTH_ONT_SN': 'ZTEGCF288226', 'FTTH_HUW_VP': '11', 'ZTE_NMS_REGID': '94112314539', 'FTTH_ZTE_PROFILE': 'TRIPLEPLAY_BB', 'REF_ID': '9Q7TyFmQ64_0112314539', 'PENO': 'PE2022063098253', 'ADSL_ZTE_USERNAME': '94112314539', 'ZTE_ONUTYPE': 'ZTE-F660', 'FTTH_INTERNET_PKG': '100M', 'VOBB': '660', 'EVLAN': '1000', 'SVLAN': '1583', 'IPSV': '1683', 'IPTVLAN': '2000'}
+2022-06-30 12:37:05,855-INFO-9Q7TyFmQ64_0112314539  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>BND-PORT-MVLAN</operationName>
+         <operatedObject>
+            <param>
+               <name>DNAME</name>
+               <value>SI_C300M_06</value>
+            </param>
+			<param>
+               <name>OID</name>
+               <value>1-1-2-2-11</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+          <param>
+               <name>MVLANID</name>
+               <value>50</value>
+           </param>
+	<param>
+               <name>VINTERFACE</name>
+               <value>50</value>
+           </param>
+	<param>
+               <name>BINDTYPE</name>
+               <value>2</value>
+           </param>
+	         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-06-30 12:37:05,871-INFO-9Q7TyFmQ64_0112314539  Response : =================================
+2022-06-30 12:37:05,871-INFO-9Q7TyFmQ64_0112314539  <?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-06-30 12:37:05,871-INFO-9Q7TyFmQ64_0112314539  0#No Error
+2022-06-30 12:37:05,871-INFO-9Q7TyFmQ64_0112314539  End   : =========================================================================
+2022-06-30 12:37:13,341-INFO-9Q7TyFmQ64_0112314539  Start : =========================================================================
+2022-06-30 12:37:13,341-INFO-9Q7TyFmQ64_0112314539  Input Data : FTTH_ZTE_IPTV2.xml
+2022-06-30 12:37:13,341-INFO-9Q7TyFmQ64_0112314539  command xml :{'ADSL_ZTE_DNAME': 'SI_C300M_06', 'FTTH_ZTE_PID': '1-1-2-2', 'FTTH_ONT_SN': 'ZTEGCF288226', 'FTTH_HUW_VP': '11', 'ZTE_NMS_REGID': '94112314539', 'FTTH_ZTE_PROFILE': 'TRIPLEPLAY_BB', 'REF_ID': '9Q7TyFmQ64_0112314539', 'PENO': 'PE2022063098253', 'ADSL_ZTE_USERNAME': '94112314539', 'ZTE_ONUTYPE': 'ZTE-F660', 'FTTH_INTERNET_PKG': '100M', 'VOBB': '660', 'EVLAN': '1000', 'SVLAN': '1583', 'IPSV': '1683', 'IPTVLAN': '2000'}
+2022-06-30 12:37:13,341-INFO-9Q7TyFmQ64_0112314539  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>BND-ONU-ONUPROFILE</operationName>
+         <operatedObject>
+            <param>
+               <name>DNAME</name>
+               <value>SI_C300M_06</value>
+            </param>
+            <param>
+               <name>OID</name>
+               <value>1-1-2-2-11</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+            <param>
+               <name>ONUPROFILENAME</name>
+               <value>TRIPLEPLAY_MULTIIPTV(2)</value>
+            </param>
+         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-06-30 12:37:13,341-INFO-9Q7TyFmQ64_0112314539  Response : =================================
+2022-06-30 12:37:13,341-INFO-9Q7TyFmQ64_0112314539  <?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-06-30 12:37:13,341-INFO-9Q7TyFmQ64_0112314539  0#No Error
+2022-06-30 12:37:13,341-INFO-9Q7TyFmQ64_0112314539  End   : =========================================================================
+2022-06-30 12:37:20,784-INFO-9Q7TyFmQ64_0112314539  Start : =========================================================================
+2022-06-30 12:37:20,784-INFO-9Q7TyFmQ64_0112314539  Input Data : FTTH_ZTE_IPTV3.xml
+2022-06-30 12:37:20,784-INFO-9Q7TyFmQ64_0112314539  command xml :{'ADSL_ZTE_DNAME': 'SI_C300M_06', 'FTTH_ZTE_PID': '1-1-2-2', 'FTTH_ONT_SN': 'ZTEGCF288226', 'FTTH_HUW_VP': '11', 'ZTE_NMS_REGID': '94112314539', 'FTTH_ZTE_PROFILE': 'TRIPLEPLAY_BB', 'REF_ID': '9Q7TyFmQ64_0112314539', 'PENO': 'PE2022063098253', 'ADSL_ZTE_USERNAME': '94112314539', 'ZTE_ONUTYPE': 'ZTE-F660', 'FTTH_INTERNET_PKG': '100M', 'VOBB': '660', 'EVLAN': '1000', 'SVLAN': '1583', 'IPSV': '1683', 'IPTVLAN': '2000'}
+2022-06-30 12:37:20,784-INFO-9Q7TyFmQ64_0112314539  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.zte.com.cn/accessnetwork/ems/webservice/">
+   <soapenv:Header>
+      <web:Authentication>
+         <userName>slt</userName>
+         <password>Slt@17XML</password>
+      </web:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <web:OperationRequestInfo>
+         <operationName>BND-ONU-ONUPROFILE</operationName>
+         <operatedObject>
+            <param>
+               <name>DNAME</name>
+               <value>SI_C300M_06</value>
+            </param>
+            <param>
+               <name>OID</name>
+               <value>1-1-2-2-11</value>
+            </param>
+         </operatedObject>
+         <operationParam>
+            <param>
+               <name>ONUPROFILENAME</name>
+               <value>TRIPLEPLAY_MULTIIPTV</value>
+            </param>
+         </operationParam>
+      </web:OperationRequestInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+2022-06-30 12:37:20,784-INFO-9Q7TyFmQ64_0112314539  Response : =================================
+2022-06-30 12:37:20,784-INFO-9Q7TyFmQ64_0112314539  <?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns2:OperationResponseInfo xmlns:ns2="http://www.zte.com.cn/accessnetwork/ems/webservice/"><status><statusCode>0</statusCode><statusDesc>No Error</statusDesc></status></ns2:OperationResponseInfo></soapenv:Body></soapenv:Envelope>
+2022-06-30 12:37:20,784-INFO-9Q7TyFmQ64_0112314539  0#No Error
+2022-06-30 12:37:20,784-INFO-9Q7TyFmQ64_0112314539  End   : =========================================================================
